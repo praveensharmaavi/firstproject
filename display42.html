@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var today, someday, text;
+today = new Date();
+someday = new Date();
+someday.setFullYear(2016, 2, 26);
+
+if (someday >= today) {
+    text = "Today is before or equal  march 26 , 2016.";
+} else {
+    text = "Today is after march 26 , 2016.";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
