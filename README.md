@@ -1,2 +1,2 @@
 #firstproject
-This is firstpeoject for MAMP project
+This is firstproject for MAMP project
